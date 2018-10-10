@@ -1,8 +1,12 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+**Leírás**
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+A Szoftvertervezés– és Fejlesztés I. tárgyhoz tartozó laboranyagok kódjai és példái.
+Az anyagok megtalálhatók a http://users.nik.uni-obuda.hu/siposm/ elérhetőségemen is, célszerű azokat is megnézni.
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+Óbudai Egyetem Neumann János Informatikai Kar
+Alkalmazott Informaitkai Intézet
+2018-2019-1 féléve
+Sipos Miklós (C)
 
 ---
 
