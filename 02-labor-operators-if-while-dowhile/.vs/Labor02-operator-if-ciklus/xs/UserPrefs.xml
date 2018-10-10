@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{F0842377-70C5-4D78-A363-CC98CE174C8B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ciklus/Program.cs">
+    <Files>
+      <File FileName="Labor02-operator-if-ciklus/Program.cs" Line="22" Column="27" />
+      <File FileName="Elagazas/Program.cs" Line="102" Column="32" />
+      <File FileName="Ciklus/Program.cs" Line="8" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Operator PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

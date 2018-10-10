@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{2D8970A0-57A5-4C12-815E-82E64D4B8FDF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="For-Foreach/Program.cs">
+    <Files>
+      <File FileName="Switch/Program.cs" Line="41" Column="1" />
+      <File FileName="HarmadikLabor/Program.cs" Line="32" Column="45" />
+      <File FileName="For-Foreach/Program.cs" Line="114" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Tomb PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

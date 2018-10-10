@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tomb", "HarmadikLabor\Tomb.csproj", "{2D8970A0-57A5-4C12-815E-82E64D4B8FDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch", "Switch\Switch.csproj", "{006A6755-3B33-4726-ACD4-4FCD8D1DE91C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For-ciklus", "For-Foreach\For-ciklus.csproj", "{033C230B-7FC5-4A33-BCEB-C960D1526C0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D8970A0-57A5-4C12-815E-82E64D4B8FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8970A0-57A5-4C12-815E-82E64D4B8FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8970A0-57A5-4C12-815E-82E64D4B8FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8970A0-57A5-4C12-815E-82E64D4B8FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006A6755-3B33-4726-ACD4-4FCD8D1DE91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006A6755-3B33-4726-ACD4-4FCD8D1DE91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006A6755-3B33-4726-ACD4-4FCD8D1DE91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006A6755-3B33-4726-ACD4-4FCD8D1DE91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033C230B-7FC5-4A33-BCEB-C960D1526C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033C230B-7FC5-4A33-BCEB-C960D1526C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033C230B-7FC5-4A33-BCEB-C960D1526C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033C230B-7FC5-4A33-BCEB-C960D1526C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

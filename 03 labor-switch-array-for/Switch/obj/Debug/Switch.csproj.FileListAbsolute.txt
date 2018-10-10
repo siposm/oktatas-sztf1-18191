@@ -1,0 +1,6 @@
+C:\Users\sm\Desktop\HarmadikLabor\Switch\bin\Debug\Switch.exe.config
+C:\Users\sm\Desktop\HarmadikLabor\Switch\bin\Debug\Switch.exe
+C:\Users\sm\Desktop\HarmadikLabor\Switch\bin\Debug\Switch.pdb
+C:\Users\sm\Desktop\HarmadikLabor\Switch\obj\Debug\Switch.csprojResolveAssemblyReference.cache
+C:\Users\sm\Desktop\HarmadikLabor\Switch\obj\Debug\Switch.exe
+C:\Users\sm\Desktop\HarmadikLabor\Switch\obj\Debug\Switch.pdb

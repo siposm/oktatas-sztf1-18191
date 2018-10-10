@@ -1,0 +1,5 @@
+C:\Users\sm\Desktop\Pokemon-csata\Metodus\bin\Debug\Metodus.exe.config
+C:\Users\sm\Desktop\Pokemon-csata\Metodus\bin\Debug\Metodus.exe
+C:\Users\sm\Desktop\Pokemon-csata\Metodus\bin\Debug\Metodus.pdb
+C:\Users\sm\Desktop\Pokemon-csata\Metodus\obj\Debug\Metodus.exe
+C:\Users\sm\Desktop\Pokemon-csata\Metodus\obj\Debug\Metodus.pdb

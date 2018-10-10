@@ -1,0 +1,22 @@
+C:\Users\sm\Desktop\Pokemon-csata\Matrix\bin\Debug\Matrix.exe.config
+C:\Users\sm\Desktop\Pokemon-csata\Matrix\bin\Debug\Matrix.exe
+C:\Users\sm\Desktop\Pokemon-csata\Matrix\bin\Debug\Matrix.pdb
+C:\Users\sm\Desktop\Pokemon-csata\Matrix\obj\Debug\Matrix.csprojResolveAssemblyReference.cache
+C:\Users\sm\Desktop\Pokemon-csata\Matrix\obj\Debug\Matrix.exe
+C:\Users\sm\Desktop\Pokemon-csata\Matrix\obj\Debug\Matrix.pdb
+C:\Users\sm\Desktop\04-labor - foreach - metodus - 2D-tomb - gyakorloFeladat\Matrix\bin\Debug\Matrix.exe.config
+C:\Users\sm\Desktop\04-labor - foreach - metodus - 2D-tomb - gyakorloFeladat\Matrix\obj\Debug\Matrix.exe
+C:\Users\sm\Desktop\04-labor - foreach - metodus - 2D-tomb - gyakorloFeladat\Matrix\obj\Debug\Matrix.pdb
+W:\_Egyetem\__Prog oktatás\Labor04\04-labor - foreach - metodus - 2D-tomb - gyakorloFeladat\Matrix\bin\Debug\Matrix.exe.config
+W:\_Egyetem\__Prog oktatás\Labor04\04-labor - foreach - metodus - 2D-tomb - gyakorloFeladat\Matrix\obj\Debug\Matrix.exe
+W:\_Egyetem\__Prog oktatás\Labor04\04-labor - foreach - metodus - 2D-tomb - gyakorloFeladat\Matrix\obj\Debug\Matrix.pdb
+W:\_Egyetem\__Prog oktatás\Labor04\04-labor - foreach - metodus - 2D-tomb - gyakorloFeladat\Matrix\bin\Debug\Matrix.exe
+W:\_Egyetem\__Prog oktatás\Labor04\04-labor - foreach - metodus - 2D-tomb - gyakorloFeladat\Matrix\bin\Debug\Matrix.pdb
+W:\_Egyetem\__Prog oktatás\Labor04\04-labor - foreach - metodus - 2D-tomb - gyakorloFeladat\Matrix\obj\Debug\Matrix.csprojResolveAssemblyReference.cache
+C:\Users\hallgato\Desktop\04-labor - foreach - metodus - 2D-tomb\Matrix\bin\Debug\Matrix.exe.config
+C:\Users\hallgato\Desktop\04-labor - foreach - metodus - 2D-tomb\Matrix\bin\Debug\Matrix.exe
+C:\Users\hallgato\Desktop\04-labor - foreach - metodus - 2D-tomb\Matrix\bin\Debug\Matrix.pdb
+C:\Users\hallgato\Desktop\04-labor - foreach - metodus - 2D-tomb\Matrix\obj\Debug\Matrix.csprojAssemblyReference.cache
+C:\Users\hallgato\Desktop\04-labor - foreach - metodus - 2D-tomb\Matrix\obj\Debug\Matrix.csproj.CoreCompileInputs.cache
+C:\Users\hallgato\Desktop\04-labor - foreach - metodus - 2D-tomb\Matrix\obj\Debug\Matrix.exe
+C:\Users\hallgato\Desktop\04-labor - foreach - metodus - 2D-tomb\Matrix\obj\Debug\Matrix.pdb

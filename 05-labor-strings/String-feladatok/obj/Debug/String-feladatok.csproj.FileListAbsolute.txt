@@ -1,0 +1,6 @@
+C:\Users\sm\Desktop\05labor\String-feladatok\bin\Debug\String-feladatok.exe.config
+C:\Users\sm\Desktop\05labor\String-feladatok\bin\Debug\String-feladatok.exe
+C:\Users\sm\Desktop\05labor\String-feladatok\bin\Debug\String-feladatok.pdb
+C:\Users\sm\Desktop\05labor\String-feladatok\obj\Debug\String-feladatok.csprojResolveAssemblyReference.cache
+C:\Users\sm\Desktop\05labor\String-feladatok\obj\Debug\String-feladatok.exe
+C:\Users\sm\Desktop\05labor\String-feladatok\obj\Debug\String-feladatok.pdb

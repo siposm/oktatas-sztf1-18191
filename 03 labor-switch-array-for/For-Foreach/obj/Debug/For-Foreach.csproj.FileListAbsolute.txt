@@ -1,0 +1,6 @@
+C:\Users\sm\Desktop\HarmadikLabor\For-Foreach\bin\Debug\For-Foreach.exe.config
+C:\Users\sm\Desktop\HarmadikLabor\For-Foreach\bin\Debug\For-Foreach.exe
+C:\Users\sm\Desktop\HarmadikLabor\For-Foreach\bin\Debug\For-Foreach.pdb
+C:\Users\sm\Desktop\HarmadikLabor\For-Foreach\obj\Debug\For-Foreach.csprojResolveAssemblyReference.cache
+C:\Users\sm\Desktop\HarmadikLabor\For-Foreach\obj\Debug\For-Foreach.exe
+C:\Users\sm\Desktop\HarmadikLabor\For-Foreach\obj\Debug\For-Foreach.pdb

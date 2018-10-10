@@ -1,0 +1,6 @@
+C:\Users\sm\Desktop\Labor02-operator-if-ciklus\Labor02-operator-if-ciklus\bin\Debug\Labor02-operator-if-ciklus.exe.config
+C:\Users\sm\Desktop\Labor02-operator-if-ciklus\Labor02-operator-if-ciklus\bin\Debug\Labor02-operator-if-ciklus.exe
+C:\Users\sm\Desktop\Labor02-operator-if-ciklus\Labor02-operator-if-ciklus\bin\Debug\Labor02-operator-if-ciklus.pdb
+C:\Users\sm\Desktop\Labor02-operator-if-ciklus\Labor02-operator-if-ciklus\obj\Debug\Labor02-operator-if-ciklus.csprojResolveAssemblyReference.cache
+C:\Users\sm\Desktop\Labor02-operator-if-ciklus\Labor02-operator-if-ciklus\obj\Debug\Labor02-operator-if-ciklus.exe
+C:\Users\sm\Desktop\Labor02-operator-if-ciklus\Labor02-operator-if-ciklus\obj\Debug\Labor02-operator-if-ciklus.pdb

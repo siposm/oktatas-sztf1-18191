@@ -1,0 +1,6 @@
+C:\Users\sm\Desktop\HarmadikLabor\HarmadikLabor\bin\Debug\HarmadikLabor.exe.config
+C:\Users\sm\Desktop\HarmadikLabor\HarmadikLabor\bin\Debug\HarmadikLabor.exe
+C:\Users\sm\Desktop\HarmadikLabor\HarmadikLabor\bin\Debug\HarmadikLabor.pdb
+C:\Users\sm\Desktop\HarmadikLabor\HarmadikLabor\obj\Debug\Tomb.csprojResolveAssemblyReference.cache
+C:\Users\sm\Desktop\HarmadikLabor\HarmadikLabor\obj\Debug\HarmadikLabor.exe
+C:\Users\sm\Desktop\HarmadikLabor\HarmadikLabor\obj\Debug\HarmadikLabor.pdb

@@ -1,0 +1,12 @@
+C:\Users\sm\Desktop\Labor1\Labor1\bin\Debug\Labor1.exe.config
+C:\Users\sm\Desktop\Labor1\Labor1\bin\Debug\Labor1.exe
+C:\Users\sm\Desktop\Labor1\Labor1\bin\Debug\Labor1.pdb
+C:\Users\sm\Desktop\Labor1\Labor1\obj\Debug\Labor1.csprojResolveAssemblyReference.cache
+C:\Users\sm\Desktop\Labor1\Labor1\obj\Debug\Labor1.exe
+C:\Users\sm\Desktop\Labor1\Labor1\obj\Debug\Labor1.pdb
+W:\_Egyetem\Prog oktatás\Labor_01\Labor1\Labor1\bin\Debug\Labor1.exe.config
+W:\_Egyetem\Prog oktatás\Labor_01\Labor1\Labor1\obj\Debug\Labor1.exe
+W:\_Egyetem\Prog oktatás\Labor_01\Labor1\Labor1\obj\Debug\Labor1.pdb
+W:\_Egyetem\Prog oktatás\Labor_01\Labor1\Labor1\bin\Debug\Labor1.exe
+W:\_Egyetem\Prog oktatás\Labor_01\Labor1\Labor1\bin\Debug\Labor1.pdb
+W:\_Egyetem\Prog oktatás\Labor_01\Labor1\Labor1\obj\Debug\Labor1.csprojResolveAssemblyReference.cache
