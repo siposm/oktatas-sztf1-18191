@@ -19,3 +19,11 @@ sipos.miklos@nik.uni-obuda.hu
 ---
 
 Meglátás / észrevétel / probléma esetén elérhető vagyok a fentebbi elérhetőségen.
+
+---
+
+## Letöltés
+
+1.) .zip letöltés: Downloads nézet » Download repository
+
+2.) cli » cél mappa » git clone https://bitbucket.org/siposm/oktatas-sztf1-18191
