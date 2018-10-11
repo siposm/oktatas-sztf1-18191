@@ -6,10 +6,6 @@ Az anyagok megtalálhatók a http://users.nik.uni-obuda.hu/siposm/ elérhetősé
 
 ---
 
-Meglátás / észrevétel / probléma esetén megtalálható vagyok az alábbi elérhetőségen.
-
----
-
 ## » Letöltés
 
 1.) .zip letöltés: Downloads nézet » Download repository
@@ -18,12 +14,18 @@ Meglátás / észrevétel / probléma esetén megtalálható vagyok az alábbi e
 
 ---
 
+Meglátás / észrevétel / probléma esetén megtalálható vagyok az alábbi elérhetőségen.
+
+---
+
+	Sipos Miklós
+	
+	sipos.miklos@nik.uni-obuda.hu
+
 	Óbudai Egyetem Neumann János Informatikai Kar
 
 	Alkalmazott Informaitkai Intézet
 
 	2018 - 2019 - 1 félév
 
-	Sipos Miklós (C)
-
-	sipos.miklos@nik.uni-obuda.hu
+	(C)
