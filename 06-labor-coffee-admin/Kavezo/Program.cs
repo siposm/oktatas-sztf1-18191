@@ -8,10 +8,8 @@ namespace Kavezo
 {
     class Program
     {
-        // -----------------------------------------------------------------------------
-        // SEGÉD METÓDUSOK
-        // -----------------------------------------------------------------------------
 
+        // = = = = 1.)
         static string[,] BekerArlista()
         {
             KiirSzines("Árlista feltöltése. (Formátum: termék,ár [enter])", true);
@@ -24,7 +22,7 @@ namespace Kavezo
                     bekeresVege = true;
                 else
                 {
-                    bemenet += beolv + "&";
+                    bemenet += beolv + "&"; // legutolsó végére is odafűzi majd » el kell távolítani
                 }
             }
             
@@ -57,29 +55,7 @@ namespace Kavezo
             Console.ResetColor();
         }
 
-
-        // bemeneti tömbből elhagyja a null elemeket
-        static string[] NullokElhagy(string[] tomb)
-        {
-            int db = 0;
-            for (int i = 0; i < tomb.Length; i++)
-                if (tomb[i] != null)
-                    db++;
-
-            string[] tombNullokNelkul = new string[db];
-            db = 0;
-            for (int i = 0; i < tomb.Length; i++)
-            {
-                if (tomb[i] != null)
-                {
-                    tombNullokNelkul[db++] = tomb[i];
-                }
-            }
-
-            return tombNullokNelkul;
-        }
-
-
+        // = = = = 4.)
         // bekérjük, hogy melyik napot szeretné lekérdezni a boltvezető
         static int MelyikNap()
         {
@@ -87,7 +63,7 @@ namespace Kavezo
             return int.Parse(Console.ReadLine()) - 1;
         }
 
-
+        // = = = = 10.)
         static void KiirEredmeny(string[,] arlista, int limitDb, string[] napiItalokIsmerlodesNelkul, int[] dbSzamok)
         {
             int vegosszeg = 0;
@@ -106,11 +82,7 @@ namespace Kavezo
             Console.WriteLine("\t\t\t"+vegosszeg+".-");
         }
 
-
-        // -----------------------------------------------------------------------------
-        // SZÜKSÉGES METÓDUSOK
-        // -----------------------------------------------------------------------------
-
+        // = = = = 2.)
         // napok számának bekérése
         static int BekerNapokSzama()
         {
@@ -118,7 +90,7 @@ namespace Kavezo
             return int.Parse(Console.ReadLine());
         }
 
-
+        // = = = = 3.)
         // eladott italok bekérése, mátrix feltöltése
         static string[,] BekerEladottItalok(int napokSzama)
         {
@@ -150,7 +122,7 @@ namespace Kavezo
             return tablazat;
         }
 
-
+        // = = = = 7.)
         // egy adott nap italjait rendezi
         static void RendezNapiItalLista(string[] adottNapItaljai)
         {
@@ -179,6 +151,7 @@ namespace Kavezo
 
             // CompareTo-ról fogunk tanulni
             // egyelőre elfogadott ha ELSŐ karakter alapján történik az összehasonlítás
+            // pl. a[0] < b[0]
 
             if (a.CompareTo(b) <= 0)
                 return true;
@@ -186,7 +159,7 @@ namespace Kavezo
                 return false;
         }
 
-
+        // = = = = 5.)
         // italok össz darabszáma / adott nap
         static int ItalokDarabszamaPerNap(string[,] eladottItalok, int melyikNap)
         {
@@ -202,6 +175,7 @@ namespace Kavezo
         }
 
 
+        // = = = = 6.)
         // italok listája / adott nap
         static string[] ItalokListajaPerNap(string[,] eladottItalok, int melyikNap)
         {
@@ -217,10 +191,31 @@ namespace Kavezo
 
             return nullmentesTomb;
         }
+        
+        // bemeneti tömbből elhagyja a null elemeket
+        static string[] NullokElhagy(string[] tomb)
+        {
+            int db = 0;
+            for (int i = 0; i < tomb.Length; i++)
+                if (tomb[i] != null)
+                    db++;
+
+            string[] tombNullokNelkul = new string[db];
+            db = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                if (tomb[i] != null)
+                {
+                    tombNullokNelkul[db++] = tomb[i];
+                }
+            }
+
+            return tombNullokNelkul;
+        }
 
 
+        // = = = = 8.)
         // egy nap italjai közül az ismétlődéseket eltávolítjuk
-        // https://blog.penjee.com/wp-content/uploads/2015/02/pass-by-reference-vs-pass-by-value-animation.gif
         static string[] IsmetlodoItalokKiszurese(string[] italokAdottNapra, ref int db)
         {
             // !!! halmaz létrehozás tétel
@@ -247,6 +242,7 @@ namespace Kavezo
         }
 
 
+        // = = = = 9.)
         // egyes italok darabszáma / adott nap
         static int[] EgyesItalokDarabszamaPerNap(string[] italokIsmNelkul , string[] italokIsm)
         {
@@ -278,44 +274,45 @@ namespace Kavezo
 
         static void Main(string[] args)
         {
+            // = = = = 1.)
             // árlistát bekérjük
             string[,] arlista = BekerArlista();
 
 
-            
+            // = = = = 2-3.)
             // eladott italok bekérése, mátrix feltöltése
             string[,] eladottItalok = BekerEladottItalok(BekerNapokSzama());
 
 
-
+            // = = = = 4-5.)
             // adott napon hány db ital volt
             int melyikNap = MelyikNap();
             int adottNapiDbSzam = ItalokDarabszamaPerNap(eladottItalok, melyikNap);
             Console.WriteLine("A(z) {0}. napon {1} db italt adtak el." , melyikNap+1 , adottNapiDbSzam);
 
 
-
+            // = = = = 6.)
             // kivesszük a mátrix egy sorát, az lesz a x. napi italok listája (tömbje)
             string[] napiItalok = ItalokListajaPerNap(eladottItalok, melyikNap);
             
 
-
+            // = = = = 7.)
             // rendezzük az italokat
             RendezNapiItalLista(napiItalok); // referencia
             
 
-
+            // = = = = 8.)
             // szűrjük ki azokat, amelyek ismétlődnek
             int limitDb = 0;
             string[] napiItalokIsmerlodesNelkul = IsmetlodoItalokKiszurese( napiItalok , ref limitDb );
 
 
-
+            // = = = = 9.)
             // adott napon megvett italok darabszáma
             int[] dbSzamok = EgyesItalokDarabszamaPerNap(napiItalokIsmerlodesNelkul, napiItalok);
 
 
-
+            // = = = = 10.)
             // végeredmény kijelzése
             KiirEredmeny(arlista, limitDb, napiItalokIsmerlodesNelkul, dbSzamok);
 
