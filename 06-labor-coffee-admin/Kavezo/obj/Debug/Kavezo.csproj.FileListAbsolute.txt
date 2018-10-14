@@ -1,0 +1,12 @@
+C:\Users\sm\Desktop\Kavezo\Kavezo\bin\Debug\Kavezo.exe.config
+C:\Users\sm\Desktop\Kavezo\Kavezo\bin\Debug\Kavezo.exe
+C:\Users\sm\Desktop\Kavezo\Kavezo\bin\Debug\Kavezo.pdb
+C:\Users\sm\Desktop\Kavezo\Kavezo\obj\Debug\Kavezo.csprojResolveAssemblyReference.cache
+C:\Users\sm\Desktop\Kavezo\Kavezo\obj\Debug\Kavezo.exe
+C:\Users\sm\Desktop\Kavezo\Kavezo\obj\Debug\Kavezo.pdb
+w:\_Egyetem\__Prog oktatás\Labor06\Kavezo\Kavezo\bin\Debug\Kavezo.exe.config
+w:\_Egyetem\__Prog oktatás\Labor06\Kavezo\Kavezo\obj\Debug\Kavezo.exe
+w:\_Egyetem\__Prog oktatás\Labor06\Kavezo\Kavezo\obj\Debug\Kavezo.pdb
+w:\_Egyetem\__Prog oktatás\Labor06\Kavezo\Kavezo\bin\Debug\Kavezo.exe
+w:\_Egyetem\__Prog oktatás\Labor06\Kavezo\Kavezo\bin\Debug\Kavezo.pdb
+w:\_Egyetem\__Prog oktatás\Labor06\Kavezo\Kavezo\obj\Debug\Kavezo.csprojResolveAssemblyReference.cache
