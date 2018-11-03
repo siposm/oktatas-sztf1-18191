@@ -1,0 +1,9 @@
+C:\Users\sm\Desktop\OOP\OOP\bin\Debug\OOP.exe.config
+C:\Users\sm\Desktop\OOP\OOP\bin\Debug\OOP.exe
+C:\Users\sm\Desktop\OOP\OOP\bin\Debug\OOP.pdb
+C:\Users\sm\Desktop\OOP\OOP\obj\Debug\OOP.csprojResolveAssemblyReference.cache
+C:\Users\sm\Desktop\OOP\OOP\obj\Debug\OOP.exe
+C:\Users\sm\Desktop\OOP\OOP\obj\Debug\OOP.pdb
+w:\_Egyetem\__Prog oktatás\Labor08\OOP\OOP\bin\Debug\OOP.exe.config
+w:\_Egyetem\__Prog oktatás\Labor08\OOP\OOP\obj\Debug\OOP.exe
+w:\_Egyetem\__Prog oktatás\Labor08\OOP\OOP\obj\Debug\OOP.pdb

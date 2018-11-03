@@ -1,0 +1,9 @@
+C:\Users\sm\Desktop\OOP_alapok\OOP_alapok\bin\Debug\OOP_alapok.exe.config
+C:\Users\sm\Desktop\OOP_alapok\OOP_alapok\bin\Debug\OOP_alapok.exe
+C:\Users\sm\Desktop\OOP_alapok\OOP_alapok\bin\Debug\OOP_alapok.pdb
+C:\Users\sm\Desktop\OOP_alapok\OOP_alapok\obj\Debug\OOP_alapok.csprojResolveAssemblyReference.cache
+C:\Users\sm\Desktop\OOP_alapok\OOP_alapok\obj\Debug\OOP_alapok.exe
+C:\Users\sm\Desktop\OOP_alapok\OOP_alapok\obj\Debug\OOP_alapok.pdb
+w:\_Egyetem\__Prog oktatás\Labor09\OOP_alapok\OOP_alapok\bin\Debug\OOP_alapok.exe.config
+w:\_Egyetem\__Prog oktatás\Labor09\OOP_alapok\OOP_alapok\obj\Debug\OOP_alapok.exe
+w:\_Egyetem\__Prog oktatás\Labor09\OOP_alapok\OOP_alapok\obj\Debug\OOP_alapok.pdb
