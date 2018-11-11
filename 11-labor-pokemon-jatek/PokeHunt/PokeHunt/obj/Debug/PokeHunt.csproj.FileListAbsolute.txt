@@ -1,0 +1,18 @@
+C:/Users/sm/Desktop/PokeHunt/PokeHunt/bin/Debug/PokeHunt.exe.config
+C:/Users/sm/Desktop/PokeHunt/PokeHunt/bin/Debug/PokeHunt.exe
+C:/Users/sm/Desktop/PokeHunt/PokeHunt/bin/Debug/PokeHunt.pdb
+C:/Users/sm/Desktop/PokeHunt/PokeHunt/obj/Debug/PokeHunt.csprojResolveAssemblyReference.cache
+C:/Users/sm/Desktop/PokeHunt/PokeHunt/obj/Debug/PokeHunt.exe
+C:/Users/sm/Desktop/PokeHunt/PokeHunt/obj/Debug/PokeHunt.pdb
+W:/_Egyetem/__Prog oktatás/Labor11/PokeHunt/PokeHunt/bin/Debug/PokeHunt.exe.config
+W:/_Egyetem/__Prog oktatás/Labor11/PokeHunt/PokeHunt/obj/Debug/PokeHunt.exe
+W:/_Egyetem/__Prog oktatás/Labor11/PokeHunt/PokeHunt/obj/Debug/PokeHunt.pdb
+W:/_Egyetem/__Prog oktatás/Labor11/PokeHunt/PokeHunt/bin/Debug/PokeHunt.exe
+W:/_Egyetem/__Prog oktatás/Labor11/PokeHunt/PokeHunt/bin/Debug/PokeHunt.pdb
+W:/_Egyetem/__Prog oktatás/Labor11/PokeHunt/PokeHunt/obj/Debug/PokeHunt.csprojResolveAssemblyReference.cache
+/Users/siposmiki/Documents/_OKTATÁS SZTF1/LA11 - konzolos játék, zh gyak/PokeHunt/PokeHunt/bin/Debug/PokeHunt.exe.config
+/Users/siposmiki/Documents/_OKTATÁS SZTF1/LA11 - konzolos játék, zh gyak/PokeHunt/PokeHunt/bin/Debug/PokeHunt.exe
+/Users/siposmiki/Documents/_OKTATÁS SZTF1/LA11 - konzolos játék, zh gyak/PokeHunt/PokeHunt/bin/Debug/PokeHunt.pdb
+/Users/siposmiki/Documents/_OKTATÁS SZTF1/LA11 - konzolos játék, zh gyak/PokeHunt/PokeHunt/obj/Debug/PokeHunt.csproj.CoreCompileInputs.cache
+/Users/siposmiki/Documents/_OKTATÁS SZTF1/LA11 - konzolos játék, zh gyak/PokeHunt/PokeHunt/obj/Debug/PokeHunt.exe
+/Users/siposmiki/Documents/_OKTATÁS SZTF1/LA11 - konzolos játék, zh gyak/PokeHunt/PokeHunt/obj/Debug/PokeHunt.pdb

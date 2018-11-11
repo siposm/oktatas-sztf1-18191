@@ -1,0 +1,12 @@
+Továbbfejlesztési lehetőségek:
+
+- pontszám számítása amikor elkap a felhasználó egy pokemont
+	- pl. hanyadikként kapja el és adott pokemon erőszintje alapján
+
+- pontszám kijelzése setcursorposition-nel a pálya jobb oldalán
+
+- pálya alatt két oszlopba kijelezni a még nem elkapott, mellette pedig a már elkapott pokemonokat. ez a lista is dinamikusan nő/csökken ahogy pokemonokat elkapunk
+
+- nyilakkal lehet mozgatni a kurzort, és ahova lépünk, ott entert nyomva kapható el a pokemon
+
+- stb :)
