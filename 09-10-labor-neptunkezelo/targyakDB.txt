@@ -1,0 +1,6 @@
+Analízis I.|5|1|2016.09.20. 12:00:00
+Bevezetés a számításelméletbe I.|5|1|2016.11.12. 13:00:00
+Informatikai rendszerek alapjai|4|0|2016.10.23. 08:30:00
+Fizika|5|1|2016.10.23. 08:00:00
+Közgazdaságtan I-II.|6|0|2016.12.06. 08:00:00
+Programozás I.|6|1|2016.12.06. 08:30:00
