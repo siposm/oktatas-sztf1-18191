@@ -9,16 +9,11 @@ namespace NeptunKezelo
 {
     class Program
     {
-        // SEGÉDEK
-        static void Elvalaszto()
-        {
-            Console.WriteLine("\n------------------------------------\n");
-        }
-
         static Hallgato[] HallgatokLetrehozasaFilebol() // fileból beolvasva
         {
             int sorokSzama = 0;
-            StreamReader sr = new StreamReader("hallgatokDB.txt");
+            string file = "hallgatokDB.txt";
+            StreamReader sr = new StreamReader(file);
             while (!sr.EndOfStream)
             {
                 sorokSzama++;
@@ -29,7 +24,7 @@ namespace NeptunKezelo
             // tudjuk mekkora tömb kell (=sorok száma)
             Hallgato[] hallgatok = new Hallgato[sorokSzama];
             int index = 0;
-            sr = new StreamReader("hallgatokDB.txt");
+            sr = new StreamReader(file);
             while (!sr.EndOfStream)
             {
                 
@@ -108,15 +103,9 @@ namespace NeptunKezelo
 
         static void Main(string[] args)
         {
-            
-            Elvalaszto();
-
             // Feltöltés & kiírás
             Hallgato[] hallgatok = HallgatokLetrehozasaFilebol();
             HallgatokFeldolgozasa(hallgatok);
-            
-            Elvalaszto();
-
             
             // gyakorlás
             // 1. egyes hallgatóknak a tulajdonságok használatával módosítani ezt-azt

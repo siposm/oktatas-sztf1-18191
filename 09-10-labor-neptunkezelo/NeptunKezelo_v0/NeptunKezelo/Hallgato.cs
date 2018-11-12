@@ -29,6 +29,7 @@ namespace NeptunKezelo
         {
             this.nev = nev;
             this.neptunKod = neptunKod;
+            this.szuletes = szuletes;
         }
 
         // GETTER-SETTER

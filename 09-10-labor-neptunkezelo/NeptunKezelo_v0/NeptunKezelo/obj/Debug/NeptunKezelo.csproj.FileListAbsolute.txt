@@ -16,3 +16,10 @@ w:\_Egyetem\__Prog oktatás\Labor09\NeptunKezelo_v0\NeptunKezelo\obj\Debug\Neptu
 w:\_Egyetem\__Prog oktatás\Labor09\NeptunKezelo_v0\NeptunKezelo\bin\Debug\NeptunKezelo.exe
 w:\_Egyetem\__Prog oktatás\Labor09\NeptunKezelo_v0\NeptunKezelo\bin\Debug\NeptunKezelo.pdb
 w:\_Egyetem\__Prog oktatás\Labor09\NeptunKezelo_v0\NeptunKezelo\obj\Debug\NeptunKezelo.csprojResolveAssemblyReference.cache
+C:\Users\hallgató\Desktop\oktatas-sztf1-18191\09-10-labor-neptunkezelo\NeptunKezelo_v0\NeptunKezelo\bin\Debug\NeptunKezelo.exe.config
+C:\Users\hallgató\Desktop\oktatas-sztf1-18191\09-10-labor-neptunkezelo\NeptunKezelo_v0\NeptunKezelo\bin\Debug\NeptunKezelo.exe
+C:\Users\hallgató\Desktop\oktatas-sztf1-18191\09-10-labor-neptunkezelo\NeptunKezelo_v0\NeptunKezelo\bin\Debug\NeptunKezelo.pdb
+C:\Users\hallgató\Desktop\oktatas-sztf1-18191\09-10-labor-neptunkezelo\NeptunKezelo_v0\NeptunKezelo\obj\Debug\NeptunKezelo.csprojAssemblyReference.cache
+C:\Users\hallgató\Desktop\oktatas-sztf1-18191\09-10-labor-neptunkezelo\NeptunKezelo_v0\NeptunKezelo\obj\Debug\NeptunKezelo.csproj.CoreCompileInputs.cache
+C:\Users\hallgató\Desktop\oktatas-sztf1-18191\09-10-labor-neptunkezelo\NeptunKezelo_v0\NeptunKezelo\obj\Debug\NeptunKezelo.exe
+C:\Users\hallgató\Desktop\oktatas-sztf1-18191\09-10-labor-neptunkezelo\NeptunKezelo_v0\NeptunKezelo\obj\Debug\NeptunKezelo.pdb
