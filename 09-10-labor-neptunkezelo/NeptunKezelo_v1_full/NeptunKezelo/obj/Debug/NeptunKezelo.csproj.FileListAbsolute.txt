@@ -1,18 +1,25 @@
-C:\Users\sm\Desktop\NeptunKezelo\NeptunKezelo\bin\Debug\NeptunKezelo.exe.config
-C:\Users\sm\Desktop\NeptunKezelo\NeptunKezelo\bin\Debug\NeptunKezelo.exe
-C:\Users\sm\Desktop\NeptunKezelo\NeptunKezelo\bin\Debug\NeptunKezelo.pdb
-C:\Users\sm\Desktop\NeptunKezelo\NeptunKezelo\obj\Debug\NeptunKezelo.csprojResolveAssemblyReference.cache
-C:\Users\sm\Desktop\NeptunKezelo\NeptunKezelo\obj\Debug\NeptunKezelo.exe
-C:\Users\sm\Desktop\NeptunKezelo\NeptunKezelo\obj\Debug\NeptunKezelo.pdb
-w:\_Egyetem\__Prog oktatás\Labor09\NeptunKezelo\NeptunKezelo\bin\Debug\NeptunKezelo.exe.config
-w:\_Egyetem\__Prog oktatás\Labor09\NeptunKezelo\NeptunKezelo\obj\Debug\NeptunKezelo.exe
-w:\_Egyetem\__Prog oktatás\Labor09\NeptunKezelo\NeptunKezelo\obj\Debug\NeptunKezelo.pdb
-w:\_Egyetem\__Prog oktatás\Labor09\NeptunKezelo\NeptunKezelo\bin\Debug\NeptunKezelo.exe
-w:\_Egyetem\__Prog oktatás\Labor09\NeptunKezelo\NeptunKezelo\bin\Debug\NeptunKezelo.pdb
-w:\_Egyetem\__Prog oktatás\Labor09\NeptunKezelo\NeptunKezelo\obj\Debug\NeptunKezelo.csprojResolveAssemblyReference.cache
-w:\_Egyetem\__Prog oktatás\Labor10\NeptunKezelo\NeptunKezelo\bin\Debug\NeptunKezelo.exe.config
-w:\_Egyetem\__Prog oktatás\Labor10\NeptunKezelo\NeptunKezelo\obj\Debug\NeptunKezelo.exe
-w:\_Egyetem\__Prog oktatás\Labor10\NeptunKezelo\NeptunKezelo\obj\Debug\NeptunKezelo.pdb
-W:\_Egyetem\__Prog oktatás\Labor10\NeptunKezelo\NeptunKezelo\bin\Debug\NeptunKezelo.exe
-W:\_Egyetem\__Prog oktatás\Labor10\NeptunKezelo\NeptunKezelo\bin\Debug\NeptunKezelo.pdb
-W:\_Egyetem\__Prog oktatás\Labor10\NeptunKezelo\NeptunKezelo\obj\Debug\NeptunKezelo.csprojResolveAssemblyReference.cache
+C:/Users/sm/Desktop/NeptunKezelo/NeptunKezelo/bin/Debug/NeptunKezelo.exe.config
+C:/Users/sm/Desktop/NeptunKezelo/NeptunKezelo/bin/Debug/NeptunKezelo.exe
+C:/Users/sm/Desktop/NeptunKezelo/NeptunKezelo/bin/Debug/NeptunKezelo.pdb
+C:/Users/sm/Desktop/NeptunKezelo/NeptunKezelo/obj/Debug/NeptunKezelo.csprojResolveAssemblyReference.cache
+C:/Users/sm/Desktop/NeptunKezelo/NeptunKezelo/obj/Debug/NeptunKezelo.exe
+C:/Users/sm/Desktop/NeptunKezelo/NeptunKezelo/obj/Debug/NeptunKezelo.pdb
+w:/_Egyetem/__Prog oktatás/Labor09/NeptunKezelo/NeptunKezelo/bin/Debug/NeptunKezelo.exe.config
+w:/_Egyetem/__Prog oktatás/Labor09/NeptunKezelo/NeptunKezelo/obj/Debug/NeptunKezelo.exe
+w:/_Egyetem/__Prog oktatás/Labor09/NeptunKezelo/NeptunKezelo/obj/Debug/NeptunKezelo.pdb
+w:/_Egyetem/__Prog oktatás/Labor09/NeptunKezelo/NeptunKezelo/bin/Debug/NeptunKezelo.exe
+w:/_Egyetem/__Prog oktatás/Labor09/NeptunKezelo/NeptunKezelo/bin/Debug/NeptunKezelo.pdb
+w:/_Egyetem/__Prog oktatás/Labor09/NeptunKezelo/NeptunKezelo/obj/Debug/NeptunKezelo.csprojResolveAssemblyReference.cache
+w:/_Egyetem/__Prog oktatás/Labor10/NeptunKezelo/NeptunKezelo/bin/Debug/NeptunKezelo.exe.config
+w:/_Egyetem/__Prog oktatás/Labor10/NeptunKezelo/NeptunKezelo/obj/Debug/NeptunKezelo.exe
+w:/_Egyetem/__Prog oktatás/Labor10/NeptunKezelo/NeptunKezelo/obj/Debug/NeptunKezelo.pdb
+W:/_Egyetem/__Prog oktatás/Labor10/NeptunKezelo/NeptunKezelo/bin/Debug/NeptunKezelo.exe
+W:/_Egyetem/__Prog oktatás/Labor10/NeptunKezelo/NeptunKezelo/bin/Debug/NeptunKezelo.pdb
+W:/_Egyetem/__Prog oktatás/Labor10/NeptunKezelo/NeptunKezelo/obj/Debug/NeptunKezelo.csprojResolveAssemblyReference.cache
+/Users/siposmiki/Documents/_OKTATÁS/SZTF1/LA10 - komplex gyak, filekezeles, zh gyak/NeptunKezelo/NeptunKezelo/bin/Debug/NeptunKezelo.exe.config
+/Users/siposmiki/Documents/_OKTATÁS/SZTF1/LA10 - komplex gyak, filekezeles, zh gyak/NeptunKezelo/NeptunKezelo/bin/Debug/NeptunKezelo.exe
+/Users/siposmiki/Documents/_OKTATÁS/SZTF1/LA10 - komplex gyak, filekezeles, zh gyak/NeptunKezelo/NeptunKezelo/bin/Debug/NeptunKezelo.pdb
+/Users/siposmiki/Documents/_OKTATÁS/SZTF1/LA10 - komplex gyak, filekezeles, zh gyak/NeptunKezelo/NeptunKezelo/obj/Debug/NeptunKezelo.csprojAssemblyReference.cache
+/Users/siposmiki/Documents/_OKTATÁS/SZTF1/LA10 - komplex gyak, filekezeles, zh gyak/NeptunKezelo/NeptunKezelo/obj/Debug/NeptunKezelo.csproj.CoreCompileInputs.cache
+/Users/siposmiki/Documents/_OKTATÁS/SZTF1/LA10 - komplex gyak, filekezeles, zh gyak/NeptunKezelo/NeptunKezelo/obj/Debug/NeptunKezelo.exe
+/Users/siposmiki/Documents/_OKTATÁS/SZTF1/LA10 - komplex gyak, filekezeles, zh gyak/NeptunKezelo/NeptunKezelo/obj/Debug/NeptunKezelo.pdb

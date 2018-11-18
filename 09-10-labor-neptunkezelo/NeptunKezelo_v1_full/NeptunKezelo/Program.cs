@@ -60,7 +60,7 @@ namespace NeptunKezelo
                 TargyakFelvetele(hallgatok[index].Targyak);
 
                 // iskola megadása
-                hallgatok[index].Iskola = new Iskola("Óbudai Egyetem Neumann János Informatikai Kar", "Bécsi út 96/b");
+                hallgatok[index].Iskola = new Iskola("ÓE NIK", "Bécsi út 96/b");
 
                 // hallgatók tömb indexét növelem
                 index++;
@@ -105,8 +105,9 @@ namespace NeptunKezelo
 
 
         // FELADATOK
+
         // 1.
-        static void LegregebbiHallgato(Hallgato[] hallgatok)
+        static int LegregebbiHallgato(Hallgato[] hallgatok)
         {
             // ha több van akkor az elsőt
             int min = 0;
@@ -117,15 +118,14 @@ namespace NeptunKezelo
                     min = i;
                 }
             }
-            //return min;
-            Console.WriteLine("A legrégebbi hallgató: {0} ({1})" , hallgatok[min].Nev , hallgatok[min].NeptunKod);
+            return min;
         }
+
         // 2.
-        static void LegregebbiHallgatok(Hallgato[] hallgatok)
+        static int[] LegregebbiHallgatok(Hallgato[] hallgatok, ref int db)
         {
             int[] legregebbiek = new int[hallgatok.Length];
             DateTime minertek = hallgatok[0].BeiratkozasIdeje;
-            int db = 0;
             legregebbiek[db] = 0;
 
             for (int i = 1; i < hallgatok.Length; i++)
@@ -148,34 +148,25 @@ namespace NeptunKezelo
                 }
             }
 
-            // return ...
-
-            Console.WriteLine("A legrégebbi hallgatók:\n");
-            for (int i = 0; i <= db; i++)
-            {
-                Console.WriteLine("[{0}]. - {1} - ({2})" ,
-                    legregebbiek[i],
-                    hallgatok[legregebbiek[i]].Nev,
-                    hallgatok[legregebbiek[i]].NeptunKod
-                    );
-            }
+            return legregebbiek;
         }
+
         // 3.
         static void HallgatoTargyai(Hallgato[] hallgatok)
         {
             Console.Write("Hallgató tárgyai:\t");
-            int melyik = int.Parse(Console.ReadLine());
-            hallgatok[melyik].TargyakListazasa();
+            //int x = int.Parse(Console.ReadLine());
+            hallgatok[1].TargyakListazasa();
         }
+
         // 4.
         static void HallgatoTargyai(Hallgato[] hallgatok, bool vizsgas)
         {
             Console.Write("Hallgató (vizsgás/nemvizsgás) tárgyai:\t");
-            int melyik = int.Parse(Console.ReadLine());
-            hallgatok[melyik].TargyakListazasa(vizsgas);
+            //int x = int.Parse(Console.ReadLine());
+            hallgatok[1].TargyakListazasa(vizsgas);
         }
-        
-        // === SZÜNET 
+
         // 5.
         static void HallgatoVizsgazas(Hallgato[] hallgatok, string neptunkod, int jegy)
         {
@@ -194,10 +185,12 @@ namespace NeptunKezelo
                 }
             }
         }
+
         // 6.
-        static void VizsgazottHallgatokLekerese(Hallgato[] hallgatok, string targyNev)
+        static int[] VizsgazottHallgatokLekerese(Hallgato[] hallgatok, string targyNev, ref int index)
         {
-            Console.WriteLine("Hallgatók, akik teljesítették a {0} tárgyat:\n", targyNev);
+            int[] hallgatoIndexek = new int[hallgatok.Length];
+            index = -1;
 
             for (int i = 0; i < hallgatok.Length; i++)
             {
@@ -207,51 +200,68 @@ namespace NeptunKezelo
                 {
                     // j = hallgató tárgyainak kijelölése
 
-                    if (hallgatok[i].Targyak[j].Jegy > 0)
-                    {
-                        // kigyűjteni az indexeket...
-                        // de most csak kiírjuk
-                        Console.WriteLine("- {0} ({1}) : {2}",
-                            hallgatok[i].Nev,
-                            hallgatok[i].NeptunKod,
-                            hallgatok[i].Targyak[j].Jegy);
-                    }
+                    if (hallgatok[i].Targyak[j].Nev == targyNev && hallgatok[i].Targyak[j].Jegy > 1)
+                        hallgatoIndexek[++index] = i;
+                }
+            }
 
-                }
-            }
+            if (index == -1)
+                return null;
+
+            //else
+            return hallgatoIndexek;
+
+            // figyeljük meg, hogy az int tömb miatt, a kimenetben "helytelen" eredmények születhetnek
+            // a default 0 érték miatt.
+            // megoldás >> utolsó értékes elem indexét átadni VAGY megszámolni előre
         }
+
         // 7.
-        static void HallgatokTagozaton(Hallgato[] hallgatok, Tagozatok tagozat, int limit)
+        static Hallgato[] HallgatokTagozaton(Hallgato[] hallgatok, Tagozatok tagozat, int limit)
         {
-            Console.WriteLine("{0} tagozatra járó hallgatók:\n", tagozat);
+            int db = 0;
             for (int i = 0; i < hallgatok.Length; i++)
-            {
                 if (hallgatok[i].Tagozat == tagozat) // enum == enum működik
-                {
-                    Console.WriteLine("{0} ({1})",
-                        hallgatok[i].Nev,
-                        hallgatok[i].NeptunKod);
-                }
-            }
+                    if(hallgatok[i].Szuletes.Year <= 1990)
+                        db++;
+
+            Hallgato[] elemek = new Hallgato[db];
+            db = 0; //indexelőnek használva innentől
+
+            for (int i = 0; i < hallgatok.Length; i++)
+                if (hallgatok[i].Tagozat == tagozat)
+                    if (hallgatok[i].Szuletes.Year <= 1990)
+                        elemek[db++] = hallgatok[i];
+
+            return elemek;
+
         }
+
         // 8.
-        static void HallgatokTagozatonPassziv(Hallgato[] hallgatok, Tagozatok tagozat, Iskola iskola)
+        static Hallgato[] HallgatokTagozatonPassziv(Hallgato[] hallgatok, Tagozatok tagozat, Iskola iskola)
         {
-            Console.WriteLine("{0}, {1} tagozatra járó hallgatók:\n", iskola.Nev,tagozat);
+            int db = 0;
             for (int i = 0; i < hallgatok.Length; i++)
             {
                 if (hallgatok[i].Tagozat == tagozat)
-                {
                     if (hallgatok[i].Iskola.Nev == iskola.Nev)
-                    {
-                        Console.WriteLine("{0} ({1})",
-                        hallgatok[i].Nev,
-                        hallgatok[i].NeptunKod);
-                    }
-                }
+                        if(hallgatok[i].PasszivFelevekSzama > 1)
+                            db++;
             }
-        }
 
+            Hallgato[] elemek = new Hallgato[db];
+            db = 0;
+
+            for (int i = 0; i < hallgatok.Length; i++)
+            {
+                if (hallgatok[i].Tagozat == tagozat)
+                    if (hallgatok[i].Iskola.Nev == iskola.Nev)
+                        if (hallgatok[i].PasszivFelevekSzama > 1)
+                            elemek[db++] = hallgatok[i];
+            }
+
+            return elemek;
+        }
 
 
 
@@ -278,22 +288,33 @@ namespace NeptunKezelo
             // FELADATOK
 
             // 1. legrégebb óta ittlévő hallgató (beiratkozás tekintetében)
-            LegregebbiHallgato(hallgatok);
+            int min = LegregebbiHallgato(hallgatok);
+            Console.WriteLine("1) A legrégebbi hallgató: {0} ({1})", hallgatok[min].Nev, hallgatok[min].NeptunKod);
             Elvalaszto();
 
             // 2. legrégebb óta ittlévő hallgatóK (beiratkozás tekintetében)
-            LegregebbiHallgatok(hallgatok);
+            int db = 0;
+            int[] legregebbiek = LegregebbiHallgatok(hallgatok, ref db);
+            Console.WriteLine("2) A legrégebbi hallgatók:\n");
+            for (int i = 0; i <= db; i++)
+            {
+                Console.WriteLine("[{0}]. - {1} - ({2})",
+                    legregebbiek[i],
+                    hallgatok[legregebbiek[i]].Nev,
+                    hallgatok[legregebbiek[i]].NeptunKod
+                    );
+            }
             Elvalaszto();
 
             // 3. Adott hallgató tárgyainak kilistázása
+            Console.WriteLine("3) Hallgató tárgyainak kilistázása:\n"); 
             HallgatoTargyai(hallgatok);
             Elvalaszto();
 
             // 4. Adott hallgató tárgyainak kilistázása ha az vizsgás
+            Console.WriteLine("4) Hallgató vizsgás / nem vizs. tárgyainak kilistázása:\n"); 
             HallgatoTargyai(hallgatok, true);
             Elvalaszto();
-
-            // == SZÜNET
 
             // 5. Adott hallgató vizsgázik
             Random r = new Random();
@@ -302,28 +323,42 @@ namespace NeptunKezelo
             HallgatoVizsgazas(hallgatok, "1L4HJ5", r.Next(1, 6));
             //Valaszto();
 
-            // 6. Azokat a hallgatókat kérjük le, akik adott tárgyból vizsgáztak már
-            VizsgazottHallgatokLekerese(hallgatok,"Programozás I.");
+            // 6. Azokat a hallgatókat kérjük le, akik adott tárgyból vizsgáztak már legalább 2-esre
+            string targynev = "Programozás I.";
+            Console.WriteLine("6) Hallgatók, akik teljesítették a {0} tárgyat:", targynev);
+            db = 0; // metódusban átállítom!
+            int[] vizsghalg = VizsgazottHallgatokLekerese(hallgatok, targynev, ref db);
+            for (int i = 0; i < db; i++)
+                hallgatok[i].Adatok();
+
             Elvalaszto();
 
             // 7. Nappali tagozatos hallgatók listázása, akik 1990 előtt születtek
-            HallgatokTagozaton(hallgatok, Tagozatok.Nappli, 1990);
+            Console.WriteLine("7) {0} tagozatra járó, 1990 előtt született hallgatók:\n", Tagozatok.Nappli); 
+            Hallgato[] elemek = HallgatokTagozaton(hallgatok, Tagozatok.Nappli, 1990);
+            foreach (Hallgato h in elemek)
+                h.Adatok();
+
             Elvalaszto();
 
             // 8. Esti tagozatos hallgatók, akik a NIK-re járnak ÉS nem volt passzív félévük még
-            HallgatokTagozatonPassziv(
-                hallgatok,
-                Tagozatok.Esti,
-                new Iskola("Óbudai Egyetem Neumann János Informatikai Kar","Bécsi út 96/b"));
+            Iskola iskola = new Iskola("ÓE NIK","Bécsi út 96/b");
+            Console.WriteLine("8) {0}, {1} tagozatra járó hallgatók:\n", iskola.Nev, Tagozatok.Esti);
+
+
+            hallgatok[5].PasszivFelevekSzama = 2;
+
+            elemek = HallgatokTagozatonPassziv( hallgatok, Tagozatok.Esti, iskola );
+
+            foreach (Hallgato h in elemek)
+                h.Adatok();
+
             Elvalaszto();
 
-            // tesztelés céljából megnézni, hogy egyik hallgató iskoláját Keleti karra átállítjuk
-            // és más eredmény fog születni
-            // ...
-
-
-
-
+            // további feladat: fájlba író metódus implementálása, 
+            //   amely kap egy hallgatókat tartalmazó objektumok tömbjét
+            //   és egy feladatcímet. a kiíráskor az első sorban a feladat címe legyen,
+            //   majd a hallgatók adatai felsorolva egymás alatt.
 
 
 

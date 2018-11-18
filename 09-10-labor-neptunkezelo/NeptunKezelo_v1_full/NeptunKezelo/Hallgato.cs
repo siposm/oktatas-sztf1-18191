@@ -29,6 +29,7 @@ namespace NeptunKezelo
         {
             this.nev = nev;
             this.neptunKod = neptunKod;
+            this.szuletes = szuletes;
         }
 
         // GETTER-SETTER
@@ -40,7 +41,7 @@ namespace NeptunKezelo
         public string NeptunKod
         {
             get { return neptunKod; }
-            // neptun kódod úgy sem változtatunk
+            // neptun kódot úgy sem változtatunk
         }
         public DateTime BeiratkozasIdeje
         {
@@ -81,7 +82,7 @@ namespace NeptunKezelo
 
         public void Adatok()
         {
-            Console.WriteLine("> {0} ({1}) - {2} - {3}", nev, neptunKod, beiratkozasIdeje.Year, tagozat);
+            Console.WriteLine(" > {0}\t({1})\t{2}\t{3}", nev, neptunKod, beiratkozasIdeje.Year, tagozat);
         }
 
         public double AktivFelevekSzama()
@@ -125,7 +126,7 @@ namespace NeptunKezelo
 
         public bool NikesHallgato()
         {
-            if (iskola.Nev == "Óbudai Egyetem Neumann János Informatikai Kar")
+            if (iskola.Nev == "ÓE NIK")
                 return true;
             return
                 false;
