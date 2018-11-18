@@ -1,0 +1,9 @@
+C:\Users\sm\Desktop\Filekezeles\Filekezeles\bin\Debug\Filekezeles.exe.config
+C:\Users\sm\Desktop\Filekezeles\Filekezeles\bin\Debug\Filekezeles.exe
+C:\Users\sm\Desktop\Filekezeles\Filekezeles\bin\Debug\Filekezeles.pdb
+C:\Users\sm\Desktop\Filekezeles\Filekezeles\obj\Debug\Filekezeles.csprojResolveAssemblyReference.cache
+C:\Users\sm\Desktop\Filekezeles\Filekezeles\obj\Debug\Filekezeles.exe
+C:\Users\sm\Desktop\Filekezeles\Filekezeles\obj\Debug\Filekezeles.pdb
+w:\_Egyetem\__Prog oktatás\Labor10\Filekezeles\Filekezeles\bin\Debug\Filekezeles.exe.config
+w:\_Egyetem\__Prog oktatás\Labor10\Filekezeles\Filekezeles\obj\Debug\Filekezeles.exe
+w:\_Egyetem\__Prog oktatás\Labor10\Filekezeles\Filekezeles\obj\Debug\Filekezeles.pdb
