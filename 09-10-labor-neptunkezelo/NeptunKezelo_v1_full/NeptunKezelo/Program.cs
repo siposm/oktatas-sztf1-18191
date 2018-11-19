@@ -328,8 +328,8 @@ namespace NeptunKezelo
             Console.WriteLine("6) Hallgatók, akik teljesítették a {0} tárgyat:", targynev);
             db = 0; // metódusban átállítom!
             int[] vizsghalg = VizsgazottHallgatokLekerese(hallgatok, targynev, ref db);
-            for (int i = 0; i < db; i++)
-                hallgatok[i].Adatok();
+            for (int i = 0; i <= db; i++)
+                hallgatok[vizsghalg[i]].Adatok();
 
             Elvalaszto();
 
