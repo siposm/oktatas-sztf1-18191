@@ -176,7 +176,7 @@ namespace NeptunKezelo
                 {
                     hallgatok[i].Vizsgazas(
                         jegy,                      // érdemjegy
-                        new Targy("Programozás I.",// tárgy neve alapján megy a keresés majd
+                        new Targy("SzTF I.",// tárgy neve alapján megy a keresés majd
                             0,                  // nem fontos
                             false,              // nem fontos
                             new DateTime()      // nem fontos
@@ -324,7 +324,7 @@ namespace NeptunKezelo
             //Valaszto();
 
             // 6. Azokat a hallgatókat kérjük le, akik adott tárgyból vizsgáztak már legalább 2-esre
-            string targynev = "Programozás I.";
+            string targynev = "SzTF I.";
             Console.WriteLine("6) Hallgatók, akik teljesítették a {0} tárgyat:", targynev);
             db = 0; // metódusban átállítom!
             int[] vizsghalg = VizsgazottHallgatokLekerese(hallgatok, targynev, ref db);
