@@ -1,0 +1,17 @@
+Pikachu|Elektromos
+Raichu|Elektromos
+Pidgeotto|Általános
+Blastoise|Víz
+Charizard|Tűz
+Sandslash|Föld
+Charmander|Tűz
+Kadabra|Psziho
+Alakazam|Psziho
+Machamp|Harcos
+Ginger|Szellem
+Kingler|Víz
+Mr. Mime|Psziho
+Magikarp|Víz
+Gloom|Fű
+Bulbasaur|Fű
+Sanshrew|Jég

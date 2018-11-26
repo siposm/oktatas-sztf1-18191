@@ -1,0 +1,6 @@
+/Users/siposmiki/Projects/pokehunt_v2/pokehunt_v2/bin/Debug/pokehunt_v2.exe
+/Users/siposmiki/Projects/pokehunt_v2/pokehunt_v2/bin/Debug/pokehunt_v2.pdb
+/Users/siposmiki/Projects/pokehunt_v2/pokehunt_v2/obj/x86/Debug/pokehunt_v2.csprojAssemblyReference.cache
+/Users/siposmiki/Projects/pokehunt_v2/pokehunt_v2/obj/x86/Debug/pokehunt_v2.csproj.CoreCompileInputs.cache
+/Users/siposmiki/Projects/pokehunt_v2/pokehunt_v2/obj/x86/Debug/pokehunt_v2.exe
+/Users/siposmiki/Projects/pokehunt_v2/pokehunt_v2/obj/x86/Debug/pokehunt_v2.pdb
